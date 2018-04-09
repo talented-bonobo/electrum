@@ -442,7 +442,7 @@ class NetworkChoiceLayout(object):
         host, port, protocol, proxy, auto_connect = self.network.get_parameters()
         host = str(self.server_host.text())
         port = str(self.server_port.text())
-        auto_connect = self.autoconnect_cb.isChecked()
+        auto_connect = False
         self.network.set_parameters(host, port, protocol, proxy, auto_connect)
 
     def set_proxy(self):

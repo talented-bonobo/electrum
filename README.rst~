@@ -22,6 +22,10 @@ Electrum-Personal - Lightweight Bitcoin client
 
 
 
+
+Getting started
+===============
+
 Install:
 
 sudo apt update
@@ -35,10 +39,6 @@ pyrcc5 icons.qrc -o gui/qt/icons_rc.py
 Run:
 
 python3 electrum
-
-Getting started
-===============
-
 
 Electrum is a pure python application. If you want to use the
 Qt interface, install the Qt dependencies::

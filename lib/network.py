@@ -354,7 +354,7 @@ class Network(util.DaemonThread):
 
     def get_parameters(self):
         host, port, protocol = deserialize_server(self.default_server)
-        return host, port, protocol, self.proxy, self.auto_connect
+        return host, port, protocol, self.proxy, False
 
     def get_donation_address(self):
         if self.is_connected():
